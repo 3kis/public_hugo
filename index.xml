@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Asher&#39;s Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Asher&#39;s Blog</description>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 15 Apr 2024 21:29:40 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpringBoot&#43;docker</title>
+      <link>http://localhost:1313/posts/tech/springboot&#43;docker/</link>
+      <pubDate>Mon, 15 Apr 2024 21:29:40 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/springboot&#43;docker/</guid>
+      <description>Yml配置如下: 1 2 3 4 5 6 7 8 9 10 11 12 13 version: &amp;#39;3.8&amp;#39; services: java-app: image: maven:3.9.6-amazoncorretto-8-debian-bookworm volumes: - .:/app - ./settings.xml:/usr/share/maven/conf/settings.xml working_dir: /app command: tail -f /dev/null stdin_open: true tty: true 这个采用的是非openjdk的maven镜像, 有需要的是</description>
+    </item>
+    <item>
+      <title>SpringBoot</title>
+      <link>http://localhost:1313/posts/tech/springboot/</link>
+      <pubDate>Sun, 17 Mar 2024 22:51:37 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/springboot/</guid>
+      <description>文件分享 指定项目的目录为文件上传目录 1 2 //System.getProperty(&amp;#34;user.dir&amp;#34;)会得到当前项目的根目</description>
+    </item>
+    <item>
+      <title>hash</title>
+      <link>http://localhost:1313/posts/tech/algorithm0225-hash/</link>
+      <pubDate>Sun, 25 Feb 2024 19:43:35 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/algorithm0225-hash/</guid>
+      <description>hash 表的创建 字符串 hash 哈希表的构建 哈希表的存储方式有两种, 分别是拉链法和开放地址法 拉链法 拉链法中 h数组每个元素 h[i] 存储的是指向某个单链表的指针 开放</description>
+    </item>
+    <item>
+      <title>heap</title>
+      <link>http://localhost:1313/posts/tech/algorithm0219-heap/</link>
+      <pubDate>Mon, 19 Feb 2024 12:05:21 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/algorithm0219-heap/</guid>
+      <description>如何手写一个堆? 堆对外提供哪些 api ? ① 插入一个元素 ② 求集合中的最小值 ③ 删除最小值 延伸操作: ④ 删除任意一个元素 ⑤ 修改任意一个元素 堆的基本结构 堆是</description>
+    </item>
+    <item>
+      <title>Union-findDataStructure</title>
+      <link>http://localhost:1313/posts/tech/algorithm0217-union-finddatastructure/</link>
+      <pubDate>Sat, 17 Feb 2024 13:51:03 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/algorithm0217-union-finddatastructure/</guid>
+      <description>并查集优点 并查集是一种数据结构, 对于数据结构, 通常是能够帮助我们快速的执行一些操作才有必要创造出来. 对于并查集, 有如下两个优点 ① 快速的判断一</description>
+    </item>
+    <item>
+      <title>trieTree</title>
+      <link>http://localhost:1313/posts/tech/algorithm0215-trietree/</link>
+      <pubDate>Thu, 15 Feb 2024 18:24:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/algorithm0215-trietree/</guid>
+      <description>Trie树的作用: 快速存储和查找字符串集合的数据结构 如何用 trie 树存字符串? 这里提一点, trie 树存储的字符串数量和种类都不会很多, 要么全是小写字母,</description>
+    </item>
+    <item>
+      <title>kmp</title>
+      <link>http://localhost:1313/posts/tech/algorithm0215-kmp/</link>
+      <pubDate>Thu, 15 Feb 2024 14:00:45 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/algorithm0215-kmp/</guid>
+      <description>kmp实际上是对字符串匹配的优化算法. 对于字符串s和字符串 p, 要找到 p 在 s 中的位置, 那么暴力算法是以字符串的每个字符作为起点, 然后逐个比较 p 和</description>
+    </item>
+    <item>
+      <title>链表&amp;栈</title>
+      <link>http://localhost:1313/posts/tech/algorithm0120-linkedliststack/</link>
+      <pubDate>Sun, 21 Jan 2024 10:33:12 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/algorithm0120-linkedliststack/</guid>
+      <description>单链表 双链表 栈 关于链表, 我们采用数组模拟的方式, 而不是以创建 struct 的方式, 因为new 一个 struct 太慢了, 数据量达到百万级的时候性能低 单链表 用途: 创建邻</description>
+    </item>
+    <item>
+      <title>区间合并</title>
+      <link>http://localhost:1313/posts/tech/algorithm0120-intervalmerging/</link>
+      <pubDate>Sat, 20 Jan 2024 21:48:20 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/algorithm0120-intervalmerging/</guid>
+      <description>区间合并应用场景: 如果给了我们很多区间, 这些区间有交集的话, 我们可以通过接下来介绍的方式迅速把两个区间合并成同一个区间 合并过程中的问题的边界</description>
+    </item>
+    <item>
+      <title>二分查找</title>
+      <link>http://localhost:1313/posts/tech/algorithm0115-binarysearch/</link>
+      <pubDate>Mon, 15 Jan 2024 20:37:05 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/algorithm0115-binarysearch/</guid>
+      <description>二分用来干嘛? 用来找到满足某种性质的区间的边界 二分查找有两种写法, 应对的场景不同, 从代码上看最核心的区别在于求 mid 下标时是否需要加一来求出 mid 下</description>
+    </item>
+    <item>
+      <title>Discretization离散化</title>
+      <link>http://localhost:1313/posts/tech/algorithm0116-discretization/</link>
+      <pubDate>Sun, 14 Jan 2024 17:25:41 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/algorithm0116-discretization/</guid>
+      <description>离散化特指整数的离散化, 且是有序的离散化 离散化的含义: 有一些数, 值域比较大$[0,10^9]$ , 数量不多,大概是$10^5$个 有些题目, 我们</description>
+    </item>
+    <item>
+      <title>Java 线程池任务队列的思考</title>
+      <link>http://localhost:1313/posts/tech/java-threadpool/</link>
+      <pubDate>Fri, 12 Jan 2024 23:42:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/java-threadpool/</guid>
+      <description>关于 java 线程池等待队列长度的思考 根据是否可以接受任务长时间等待作为切入点来进行队列长度的选择 比如 hytrix 熔断, 他的底层实现就是 synchronousQueue, 因为他就需要响应快,</description>
+    </item>
+    <item>
+      <title>golang 随笔</title>
+      <link>http://localhost:1313/posts/tech/golang-study/</link>
+      <pubDate>Sat, 06 Jan 2024 23:42:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/golang-study/</guid>
+      <description>golang学习</description>
+    </item>
+    <item>
+      <title>markdown latex 语法</title>
+      <link>http://localhost:1313/posts/tech/markdownsyntax/</link>
+      <pubDate>Sat, 30 Dec 2023 21:12:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/markdownsyntax/</guid>
+      <description>记录一些 markdown 的 latex 语法和上下标的操作</description>
+    </item>
+    <item>
+      <title>差分</title>
+      <link>http://localhost:1313/posts/tech/algorithm1230-difference/</link>
+      <pubDate>Sat, 30 Dec 2023 21:12:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/algorithm1230-difference/</guid>
+      <description>学习差分</description>
+    </item>
+    <item>
+      <title>双指针算法</title>
+      <link>http://localhost:1313/posts/tech/algorithm0101-twopointers/</link>
+      <pubDate>Sat, 30 Dec 2023 21:12:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/algorithm0101-twopointers/</guid>
+      <description>学习双指针算法</description>
+    </item>
+    <item>
+      <title>docker 运行 MySQL</title>
+      <link>http://localhost:1313/posts/tech/docker-mysql/</link>
+      <pubDate>Wed, 27 Dec 2023 21:12:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/docker-mysql/</guid>
+      <description>使用 docker-compose 来拉取mysql 镜像并运行</description>
+    </item>
+    <item>
+      <title>前缀和</title>
+      <link>http://localhost:1313/posts/tech/algorithm1221-prefixsum/</link>
+      <pubDate>Thu, 21 Dec 2023 21:12:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/algorithm1221-prefixsum/</guid>
+      <description>学习前缀和</description>
+    </item>
+    <item>
+      <title>快速配置新的macbook</title>
+      <link>http://localhost:1313/posts/tech/newmac-init-config/</link>
+      <pubDate>Sun, 17 Dec 2023 12:12:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/newmac-init-config/</guid>
+      <description>通过本文快速配置可用于开发的新到手的macbook</description>
+    </item>
+    <item>
+      <title>Homebrew安装旧版typora</title>
+      <link>http://localhost:1313/posts/tech/homebrew-install-typora/</link>
+      <pubDate>Sun, 17 Dec 2023 11:12:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/homebrew-install-typora/</guid>
+      <description>在 mac 上使用 Homebrew 安装旧版本 typora</description>
+    </item>
+    <item>
+      <title>MySQL 学习笔记</title>
+      <link>http://localhost:1313/posts/tech/mysql-notes/</link>
+      <pubDate>Thu, 14 Dec 2023 21:12:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/mysql-notes/</guid>
+      <description>MySQL 的一些知识点</description>
+    </item>
+    <item>
+      <title>随笔---多种方式拿到异步线程结果</title>
+      <link>http://localhost:1313/posts/tech/dayli-record1213/</link>
+      <pubDate>Wed, 13 Dec 2023 23:42:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/dayli-record1213/</guid>
+      <description>随笔---在异步线程中执行任务, 并确保在 main 线程能够拿到结果</description>
+    </item>
+    <item>
+      <title>简化 git 命令</title>
+      <link>http://localhost:1313/posts/tech/daylirecord1213/</link>
+      <pubDate>Wed, 13 Dec 2023 00:13:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/daylirecord1213/</guid>
+      <description>mac合并简化 git命令</description>
+    </item>
+    <item>
+      <title>随笔---合并 k 个有序数组</title>
+      <link>http://localhost:1313/posts/tech/daylirecord/</link>
+      <pubDate>Tue, 12 Dec 2023 23:42:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/daylirecord/</guid>
+      <description>随笔---合并 k 个有序数组</description>
+    </item>
+    <item>
+      <title>springboot 常用配置</title>
+      <link>http://localhost:1313/posts/tech/springquickstart/</link>
+      <pubDate>Sun, 10 Dec 2023 01:14:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/springquickstart/</guid>
+      <description>记录一些springboot 常用配置.</description>
+    </item>
+    <item>
+      <title>leetcode剑指Offer题解记录</title>
+      <link>http://localhost:1313/posts/tech/leetcode-keytooffer/</link>
+      <pubDate>Wed, 28 Jun 2023 10:15:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/leetcode-keytooffer/</guid>
+      <description>记录一些写题过程中的关键点.</description>
+    </item>
+    <item>
+      <title>redis实现分布式锁</title>
+      <link>http://localhost:1313/posts/tech/distributedlock-redis/</link>
+      <pubDate>Wed, 28 Jun 2023 10:15:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/distributedlock-redis/</guid>
+      <description>Redis实现分布式锁的四个关键点 Redis实现分布式锁需要考虑四个问题： 原子性 过期时间 锁续期 正确释放锁 原子性 保证上锁（动作一）和设置过期时</description>
+    </item>
+    <item>
+      <title>Hugo 最佳实践</title>
+      <link>http://localhost:1313/posts/tech/hugo-best-practice/</link>
+      <pubDate>Sun, 25 Jun 2023 11:15:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/hugo-best-practice/</guid>
+      <description>使用stack主题目录下的config文件修改来完成hugo的搭建.</description>
+    </item>
+    <item>
+      <title>Scoop自定义安装与使用</title>
+      <link>http://localhost:1313/posts/tech/install-scoop-in-win10/</link>
+      <pubDate>Sun, 25 Jun 2023 10:15:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tech/install-scoop-in-win10/</guid>
+      <description>win10安装scoop.</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>http://localhost:1313/posts/tech/firstpost/</link>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tech/firstpost/</guid>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+    </item>
+    <item>
+      <title>🤝友链</title>
+      <link>http://localhost:1313/links/</link>
+      <pubDate>Sat, 06 Nov 2021 15:15:53 +0800</pubDate>
+      <guid>http://localhost:1313/links/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>🙋🏻‍♂️关于</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 06 Nov 2021 14:57:28 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>关于我 英文名: Asher 职业: 程序员 运动: 跑步、乒乓球、爬山</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/tech/algorithm0102-bitoperation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tech/algorithm0102-bitoperation/</guid>
+      <description>位运算最常用的两种操作 看 n 的第 k 位数字是几 一个整数 n, 其二进制表示中第 k 位数字是几, k从 0 开始计数 n=15 ==&amp;gt; n=(1111)~2~ ①先把第 k 位移到最后一位: n &amp;raquo; k ②看个</description>
+    </item>
+  </channel>
+</rss>
