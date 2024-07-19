@@ -191,13 +191,6 @@
       <description>记录一些写题过程中的关键点.</description>
     </item>
     <item>
-      <title>redis实现分布式锁</title>
-      <link>https://paper.3kis.top/posts/tech/distributedlock-redis/</link>
-      <pubDate>Wed, 28 Jun 2023 10:15:59 +0800</pubDate>
-      <guid>https://paper.3kis.top/posts/tech/distributedlock-redis/</guid>
-      <description>Redis实现分布式锁的四个关键点 Redis实现分布式锁需要考虑四个问题： 原子性 过期时间 锁续期 正确释放锁 原子性 保证上锁（动作一）和设置过期时</description>
-    </item>
-    <item>
       <title>Hugo 最佳实践</title>
       <link>https://paper.3kis.top/posts/tech/hugo-best-practice/</link>
       <pubDate>Sun, 25 Jun 2023 11:15:59 +0800</pubDate>
