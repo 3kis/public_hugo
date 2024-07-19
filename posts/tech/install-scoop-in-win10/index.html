@@ -83,7 +83,6 @@ var _hmt = _hmt || [];
 <meta property="article:published_time" content="2023-06-25T10:15:59+08:00" />
 <meta property="article:modified_time" content="2023-06-25T10:15:59+08:00" />
 
-
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://paper.3kis.top/posts/tech/install-scoop-in-win10/cover.jpg" />
 <meta name="twitter:title" content="Scoop自定义安装与使用"/>
@@ -126,8 +125,8 @@ var _hmt = _hmt || [];
   "keywords": [
     
   ],
-  "articleBody": "在D盘下执行 irm get.scoop.sh -outfile 'install.ps1'\n如果提示无法解析 raw.githubusercontent.com 那么就在host文件中添加 185.199.108.133 raw.githubusercontent.com 然后保存为ASCI编码\n在D盘创建D:\\Scoop\\UserScoopApps 和 D:\\Scoop\\GlobalScoopApps这两个目录 接下来执行\n1 .\\install.ps1 -ScoopDir 'D:\\Scoop\\UserScoopApps' -ScoopGlobalDir 'D:\\Scoop\\GlobalScoopApps' -NoProxy 这里最好global和非global的目录不是同一个，因为同一个的话会导致每次下一个app都会多下一个全局的\n安装完之后要重启电脑或者任务管理器中重启资源管理器之后才能在powershell和cmd中都生效，不重启不只能在powershell中使用\n常用bucket Name Source\nAsh258 https://github.com/Ash258/Scoop-Ash258.git cvp https://github.com/SayCV/scoop-cvp.git dorado https://github.com/chawyehsu/dorado echo https://github.com/echoiron/echo-scoop extras https://github.com/ScoopInstaller/Extras java https://github.com/ScoopInstaller/Java Main https://github.com/ScoopInstaller/Main.git nerd-fonts https://github.com/matthewjberger/scoop-nerd-fonts nirsoft https://github.com/kodybrown/scoop-nirsoft nonportable https://github.com/ScoopInstaller/Nonportable Scoop-Apps https://github.com/ACooper81/scoop-apps scoop-bear https://github.com/AStupidBear/scoop-bear scoopcn https://github.com/scoopcn/scoopcn.git versions https://github.com/ScoopInstaller/Versions\n添加bucket：\n1 2 3 scoop bucket add extras https://github.com/ScoopInstaller/Extras scoop bucket add Scoop-Apps https://github.com/ACooper81/scoop-apps scoop bucket add versions https://github.com/ScoopInstaller/Versions 常用命令 使用scoop的shim来添加环境变量path scoop shim add $习惯命令名 $执行命令的文件(格式为：路径+文件名。如果不确定是哪一个文件起作用就去chatgpt问一问) 切换软件版本 scoop reset [@]\n删除旧版本 scoop cleanup powershell命令 以其他命令的结果作为另一命令的一部分 在 PowerShell 中，可以使用 $() 语法将命令的返回值作为参数传递给其他命令。\n",
-  "wordCount" : "462",
+  "articleBody": "在D盘下执行 irm get.scoop.sh -outfile 'install.ps1'\n如果提示无法解析 raw.githubusercontent.com 那么就在host文件中添加 185.199.108.133 raw.githubusercontent.com 然后保存为ASCI编码\n在D盘创建D:\\Scoop\\UserScoopApps 和 D:\\Scoop\\GlobalScoopApps这两个目录 接下来执行\n1 .\\install.ps1 -ScoopDir 'D:\\Scoop\\UserScoopApps' -ScoopGlobalDir 'D:\\Scoop\\GlobalScoopApps' -NoProxy 这里最好global和非global的目录不是同一个，因为同一个的话会导致每次下一个app都会多下一个全局的\n如果上面的命令报错提示没有管理员权限, 可以尝试把命令换成\n.\\install.ps1 -RunAsAdmin -ScoopDir ‘D:\\Scoop\\UserScoopApps’ -ScoopGlobalDir ‘D:\\Scoop\\GlobalScoopApps’ -NoProxy\n安装完之后要重启电脑或者任务管理器中重启资源管理器之后才能在powershell和cmd中都生效，不重启不只能在powershell中使用\n常用bucket Name Source\nAsh258 https://github.com/Ash258/Scoop-Ash258.git cvp https://github.com/SayCV/scoop-cvp.git dorado https://github.com/chawyehsu/dorado echo https://github.com/echoiron/echo-scoop extras https://github.com/ScoopInstaller/Extras java https://github.com/ScoopInstaller/Java Main https://github.com/ScoopInstaller/Main.git nerd-fonts https://github.com/matthewjberger/scoop-nerd-fonts nirsoft https://github.com/kodybrown/scoop-nirsoft nonportable https://github.com/ScoopInstaller/Nonportable Scoop-Apps https://github.com/ACooper81/scoop-apps scoop-bear https://github.com/AStupidBear/scoop-bear scoopcn https://github.com/scoopcn/scoopcn.git versions https://github.com/ScoopInstaller/Versions\n添加bucket：\n1 2 3 scoop bucket add extras https://github.com/ScoopInstaller/Extras scoop bucket add Scoop-Apps https://github.com/ACooper81/scoop-apps scoop bucket add versions https://github.com/ScoopInstaller/Versions 常用命令 使用scoop的shim来添加环境变量path scoop shim add $习惯命令名 $执行命令的文件(格式为：路径+文件名。如果不确定是哪一个文件起作用就去chatgpt问一问) 切换软件版本 scoop reset [@]\n删除旧版本 scoop cleanup powershell命令 以其他命令的结果作为另一命令的一部分 在 PowerShell 中，可以使用 $() 语法将命令的返回值作为参数传递给其他命令。\n",
+  "wordCount" : "497",
   "inLanguage": "zh",
   "image": "https://paper.3kis.top/posts/tech/install-scoop-in-win10/cover.jpg","datePublished": "2023-06-25T10:15:59+08:00",
   "dateModified": "2023-06-25T10:15:59+08:00",
@@ -296,6 +295,10 @@ var _hmt = _hmt || [];
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>这里最好global和非global的目录不是同一个，因为同一个的话会导致每次下一个app都会多下一个全局的</p>
+<blockquote>
+<p>如果上面的命令报错提示没有管理员权限, 可以尝试把命令换成</p>
+<p>.\install.ps1 -RunAsAdmin -ScoopDir &lsquo;D:\Scoop\UserScoopApps&rsquo; -ScoopGlobalDir &lsquo;D:\Scoop\GlobalScoopApps&rsquo; -NoProxy</p>
+</blockquote>
 <p>安装完之后要重启电脑或者任务管理器中重启资源管理器之后才能在powershell和cmd中都生效，不重启不只能在powershell中使用</p>
 <h1 id="常用bucket">常用bucket<a hidden class="anchor" aria-hidden="true" href="#常用bucket">#</a></h1>
 <blockquote>
@@ -351,11 +354,6 @@ versions    <a href="https://github.com/ScoopInstaller/Versions">https://github.
     <span class="title">« 上一页</span>
     <br>
     <span>Hugo 最佳实践</span>
-  </a>
-  <a class="next" href="https://paper.3kis.top/posts/tech/firstpost/">
-    <span class="title">下一页 »</span>
-    <br>
-    <span>Markdown Syntax Guide</span>
   </a>
 </nav>
 

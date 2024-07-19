@@ -51,41 +51,6 @@
       <description>Trie树的作用: 快速存储和查找字符串集合的数据结构 如何用 trie 树存字符串? 这里提一点, trie 树存储的字符串数量和种类都不会很多, 要么全是小写字母,</description>
     </item>
     <item>
-      <title>kmp</title>
-      <link>https://paper.3kis.top/posts/tech/algorithm0215-kmp/</link>
-      <pubDate>Thu, 15 Feb 2024 14:00:45 +0800</pubDate>
-      <guid>https://paper.3kis.top/posts/tech/algorithm0215-kmp/</guid>
-      <description>kmp实际上是对字符串匹配的优化算法. 对于字符串s和字符串 p, 要找到 p 在 s 中的位置, 那么暴力算法是以字符串的每个字符作为起点, 然后逐个比较 p 和</description>
-    </item>
-    <item>
-      <title>链表&amp;栈</title>
-      <link>https://paper.3kis.top/posts/tech/algorithm0120-linkedliststack/</link>
-      <pubDate>Sun, 21 Jan 2024 10:33:12 +0800</pubDate>
-      <guid>https://paper.3kis.top/posts/tech/algorithm0120-linkedliststack/</guid>
-      <description>单链表 双链表 栈 关于链表, 我们采用数组模拟的方式, 而不是以创建 struct 的方式, 因为new 一个 struct 太慢了, 数据量达到百万级的时候性能低 单链表 用途: 创建邻</description>
-    </item>
-    <item>
-      <title>区间合并</title>
-      <link>https://paper.3kis.top/posts/tech/algorithm0120-intervalmerging/</link>
-      <pubDate>Sat, 20 Jan 2024 21:48:20 +0800</pubDate>
-      <guid>https://paper.3kis.top/posts/tech/algorithm0120-intervalmerging/</guid>
-      <description>区间合并应用场景: 如果给了我们很多区间, 这些区间有交集的话, 我们可以通过接下来介绍的方式迅速把两个区间合并成同一个区间 合并过程中的问题的边界</description>
-    </item>
-    <item>
-      <title>二分查找</title>
-      <link>https://paper.3kis.top/posts/tech/algorithm0115-binarysearch/</link>
-      <pubDate>Mon, 15 Jan 2024 20:37:05 +0800</pubDate>
-      <guid>https://paper.3kis.top/posts/tech/algorithm0115-binarysearch/</guid>
-      <description>二分用来干嘛? 用来找到满足某种性质的区间的边界 二分查找有两种写法, 应对的场景不同, 从代码上看最核心的区别在于求 mid 下标时是否需要加一来求出 mid 下</description>
-    </item>
-    <item>
-      <title>Discretization离散化</title>
-      <link>https://paper.3kis.top/posts/tech/algorithm0116-discretization/</link>
-      <pubDate>Sun, 14 Jan 2024 17:25:41 +0800</pubDate>
-      <guid>https://paper.3kis.top/posts/tech/algorithm0116-discretization/</guid>
-      <description>离散化特指整数的离散化, 且是有序的离散化 离散化的含义: 有一些数, 值域比较大$[0,10^9]$ , 数量不多,大概是$10^5$个 有些题目, 我们</description>
-    </item>
-    <item>
       <title>Java 线程池任务队列的思考</title>
       <link>https://paper.3kis.top/posts/tech/java-threadpool/</link>
       <pubDate>Fri, 12 Jan 2024 23:42:59 +0800</pubDate>
@@ -114,11 +79,11 @@
       <description>学习差分</description>
     </item>
     <item>
-      <title>双指针算法</title>
+      <title>数据结构和算法01</title>
       <link>https://paper.3kis.top/posts/tech/algorithm0101-twopointers/</link>
       <pubDate>Sat, 30 Dec 2023 21:12:59 +0800</pubDate>
       <guid>https://paper.3kis.top/posts/tech/algorithm0101-twopointers/</guid>
-      <description>学习双指针算法</description>
+      <description>学习常见算法</description>
     </item>
     <item>
       <title>docker 运行 MySQL</title>
@@ -203,20 +168,6 @@
       <pubDate>Sun, 25 Jun 2023 10:15:59 +0800</pubDate>
       <guid>https://paper.3kis.top/posts/tech/install-scoop-in-win10/</guid>
       <description>win10安装scoop.</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://paper.3kis.top/posts/tech/firstpost/</link>
-      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://paper.3kis.top/posts/tech/firstpost/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://paper.3kis.top/posts/tech/algorithm0102-bitoperation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://paper.3kis.top/posts/tech/algorithm0102-bitoperation/</guid>
-      <description>位运算最常用的两种操作 看 n 的第 k 位数字是几 一个整数 n, 其二进制表示中第 k 位数字是几, k从 0 开始计数 n=15 ==&amp;gt; n=(1111)~2~ ①先把第 k 位移到最后一位: n &amp;raquo; k ②看个</description>
     </item>
   </channel>
 </rss>
