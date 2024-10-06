@@ -194,25 +194,13 @@ var _hmt = _hmt || [];
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">SpringBoot&#43;docker
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Yml配置如下: 1 2 3 4 5 6 7 8 9 10 11 12 13 version: &#39;3.8&#39; services: java-app: image: maven:3.9.6-amazoncorretto-8-debian-bookworm volumes: - .:/app - ./settings.xml:/usr/share/maven/conf/settings.xml working_dir: /app command: tail -f /dev/null stdin_open: true tty: true 这个采用的是非openjdk的maven镜像, 有需要的是...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-04-15 21:29:40 +0800 CST'>2024-04-15</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Asher</footer>
-  <a class="entry-link" aria-label="post link to SpringBoot&#43;docker" href="https://paper.3kis.top/posts/tech/springboot&#43;docker/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
     <h2 class="entry-hint-parent">SpringBoot
     </h2>
   </header>
   <div class="entry-content">
     <p>文件分享 指定项目的目录为文件上传目录 1 2 //System.getProperty(&#34;user.dir&#34;)会得到当前项目的根目...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-03-17 22:51:37 +0800 CST'>2024-03-17</span>&nbsp;·&nbsp;2 分钟&nbsp;·&nbsp;Asher</footer>
+  <footer class="entry-footer"><span title='2024-03-17 22:51:37 +0800 CST'>2024-03-17</span>&nbsp;·&nbsp;3 分钟&nbsp;·&nbsp;Asher</footer>
   <a class="entry-link" aria-label="post link to SpringBoot" href="https://paper.3kis.top/posts/tech/springboot/"></a>
 </article>
 
@@ -274,18 +262,6 @@ var _hmt = _hmt || [];
   </div>
   <footer class="entry-footer"><span title='2024-01-12 23:42:59 +0800 CST'>2024-01-12</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Asher</footer>
   <a class="entry-link" aria-label="post link to Java 线程池任务队列的思考" href="https://paper.3kis.top/posts/tech/java-threadpool/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">golang 随笔
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>len()函数获取一个 string 的时获取到的是字节长度而不是字符长度, 如果要获取字符长度则应使用 utf8.RuneCountInString(str string) , 如果确切的知道字符的编码, 那么utf8可以改成...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-01-06 23:42:59 +0800 CST'>2024-01-06</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Asher</footer>
-  <a class="entry-link" aria-label="post link to golang 随笔" href="https://paper.3kis.top/posts/tech/golang-study/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -370,6 +346,30 @@ var _hmt = _hmt || [];
   </div>
   <footer class="entry-footer"><span title='2023-12-17 11:12:59 +0800 CST'>2023-12-17</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Asher</footer>
   <a class="entry-link" aria-label="post link to Homebrew安装旧版typora" href="https://paper.3kis.top/posts/tech/homebrew-install-typora/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">MySQL 学习笔记
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>MySQL 架构 从上往下, 从左往右是数据的流动顺序: Connetors: 一些连接 MySQL 的 client, 比如我们常用 jdbc. Connection Pool(MySQL 的网络模块): client 的连接在 Connection Pool 中进行统一的管理, 比如身份认证, 线程...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-14 21:12:59 +0800 CST'>2023-12-14</span>&nbsp;·&nbsp;4 分钟&nbsp;·&nbsp;Asher</footer>
+  <a class="entry-link" aria-label="post link to MySQL 学习笔记" href="https://paper.3kis.top/posts/tech/mysql-notes/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Java随笔---多种方式拿到异步线程结果
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Semaphore: 同一时间控制并发线程数. 比如⇒⇒我们对外提供了一个工具类, 这个工具类通过Semaphore限定了只有四个线程能获取到锁, 那么不管外界开启了...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-13 23:42:59 +0800 CST'>2023-12-13</span>&nbsp;·&nbsp;4 分钟&nbsp;·&nbsp;Asher</footer>
+  <a class="entry-link" aria-label="post link to Java随笔---多种方式拿到异步线程结果" href="https://paper.3kis.top/posts/tech/dayli-record1213/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

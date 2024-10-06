@@ -6,15 +6,8 @@
     <description>Recent content on Asher&#39;s Blog</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 15 Apr 2024 21:29:40 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2024 22:51:37 +0800</lastBuildDate>
     <atom:link href="https://paper.3kis.top/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SpringBoot&#43;docker</title>
-      <link>https://paper.3kis.top/posts/tech/springboot&#43;docker/</link>
-      <pubDate>Mon, 15 Apr 2024 21:29:40 +0800</pubDate>
-      <guid>https://paper.3kis.top/posts/tech/springboot&#43;docker/</guid>
-      <description>Yml配置如下: 1 2 3 4 5 6 7 8 9 10 11 12 13 version: &amp;#39;3.8&amp;#39; services: java-app: image: maven:3.9.6-amazoncorretto-8-debian-bookworm volumes: - .:/app - ./settings.xml:/usr/share/maven/conf/settings.xml working_dir: /app command: tail -f /dev/null stdin_open: true tty: true 这个采用的是非openjdk的maven镜像, 有需要的是</description>
-    </item>
     <item>
       <title>SpringBoot</title>
       <link>https://paper.3kis.top/posts/tech/springboot/</link>
@@ -56,13 +49,6 @@
       <pubDate>Fri, 12 Jan 2024 23:42:59 +0800</pubDate>
       <guid>https://paper.3kis.top/posts/tech/java-threadpool/</guid>
       <description>关于 java 线程池等待队列长度的思考 根据是否可以接受任务长时间等待作为切入点来进行队列长度的选择 比如 hytrix 熔断, 他的底层实现就是 synchronousQueue, 因为他就需要响应快,</description>
-    </item>
-    <item>
-      <title>golang 随笔</title>
-      <link>https://paper.3kis.top/posts/tech/golang-study/</link>
-      <pubDate>Sat, 06 Jan 2024 23:42:59 +0800</pubDate>
-      <guid>https://paper.3kis.top/posts/tech/golang-study/</guid>
-      <description>golang学习</description>
     </item>
     <item>
       <title>markdown latex 语法</title>
@@ -121,7 +107,7 @@
       <description>MySQL 的一些知识点</description>
     </item>
     <item>
-      <title>随笔---多种方式拿到异步线程结果</title>
+      <title>Java随笔---多种方式拿到异步线程结果</title>
       <link>https://paper.3kis.top/posts/tech/dayli-record1213/</link>
       <pubDate>Wed, 13 Dec 2023 23:42:59 +0800</pubDate>
       <guid>https://paper.3kis.top/posts/tech/dayli-record1213/</guid>
@@ -133,20 +119,6 @@
       <pubDate>Wed, 13 Dec 2023 00:13:59 +0800</pubDate>
       <guid>https://paper.3kis.top/posts/tech/daylirecord1213/</guid>
       <description>mac合并简化 git命令</description>
-    </item>
-    <item>
-      <title>随笔---合并 k 个有序数组</title>
-      <link>https://paper.3kis.top/posts/tech/daylirecord/</link>
-      <pubDate>Tue, 12 Dec 2023 23:42:59 +0800</pubDate>
-      <guid>https://paper.3kis.top/posts/tech/daylirecord/</guid>
-      <description>随笔---合并 k 个有序数组</description>
-    </item>
-    <item>
-      <title>springboot 常用配置</title>
-      <link>https://paper.3kis.top/posts/tech/springquickstart/</link>
-      <pubDate>Sun, 10 Dec 2023 01:14:59 +0800</pubDate>
-      <guid>https://paper.3kis.top/posts/tech/springquickstart/</guid>
-      <description>记录一些springboot 常用配置.</description>
     </item>
     <item>
       <title>leetcode剑指Offer题解记录</title>
